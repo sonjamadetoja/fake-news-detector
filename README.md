@@ -1,6 +1,6 @@
 # Fake News Detection
 
-This is a project for detecting whether a news article is real or fae using NLP and logistic regression.
+This is a project for detecting whether a news article is real or fake using NLP and logistic regression.
 
 # Data
 
