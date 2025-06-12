@@ -4,7 +4,7 @@ This is a project for detecting whether a news article is real or fake using NLP
 
 ## Data
 
-Data used for training and testing is [fake-and-real-news-dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset) by clmentbisaillon from Kaggle. Licence: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+Data used for training and testing is [fake-and-real-news-dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset) by clmentbisaillon from Kaggle. Licence: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). The dataset was initially committed but later removed to keep the repository lightweight. You can download it from the Kaggle page.
 
 ## Approach
 
@@ -35,13 +35,15 @@ conda activate fakenews
 ```
 pip install -r requirements.txt
 ```
-4. Launch JupyterLab:
+4. Download the data from Kaggle, unzip it, and place the CSV files (Fake.csv and True.csv) in a folder named data/ at the root of the project.
+
+5. Launch JupyterLab:
 ```
 jupyter lab
 ```
-5. Register environment with Jupyter
+6. Register environment with Jupyter
 ```
 pip install ipykernel
 python -m ipykernel install --user --name=fakenews
 ```
-6. Open fake_news_detection.ipynb and run all cells step-by-step.
+7. Open fake_news_detection.ipynb and run all cells step-by-step.
