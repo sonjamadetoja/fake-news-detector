@@ -12,9 +12,10 @@ Data used for training and testing is [fake-and-real-news-dataset](https://www.k
 2. Combine title and text
 3. Clean and preprocess text
 4. Divide into training and test sets
-5. Calculate TF-IDF with scikit-learn TfidfVectorizer
-6. Fit a logistic regression model and predict
-7. Calculate accuracy as well as precision, recall and F1-score
+5. Construct a pipeline with TF-IDF feature extraction and logistic regression to prevent data leakage
+6. Tune the regularizatoin strength of the logistic regression model using cross-validation on the training set
+7. Train the final model on the full training data using the selected hyperparameter
+8. Evaluate performance on the held-out test set using accuracy, precision, recall, and F1-score
 
 ## Tools
 
