@@ -1,6 +1,6 @@
 # Fake News Detection
 
-This project develops a Fake News classifier using Logistic Regression and TF-IDF, achieving 98% accuracy after rigorous data auditing. By redacting source-specific metadata (e.g. 'Reuters'), I forced the model to distinguish between institutional reporting styles and emotional/hyperbolic narratives. The final model was validated against 2025 news events, successfully identifying both modern hard news and satirical content
+This project develops a Fake News classifier using Logistic Regression and TF-IDF, achieving 98% accuracy after rigorous data auditing. By redacting source-specific metadata (e.g. 'Reuters'), I forced the model to distinguish between institutional reporting styles and emotional/hyperbolic narratives. The final model was validated against 2025 news events, successfully identifying both modern hard news and satirical content.
 
 ## Data
 
